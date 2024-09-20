@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my lovely form imagemap and table wwebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- imagemap -->
+
+<img src="https://i1.sndcdn.com/avatars-2ZbOWmZnWzTYlk0v-nKi6Eg-t1080x1080.jpg" alt="maxwell cat" usemap="#catmap">
+
+<map name="catmap">
+    <area  shape="poly" alt="maxwell" title="catmap" href="https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif" target="_blank" coords="85,184,114,204,153,217,171,207,175,189,194,184,203,171,210,149,215,128,215,109,211,87,214,74,227,43,193,63,160,63,126,42,86,33,64,38,40,53,23,78,18,108,28,141,58,166">
+</map>
+
+<!-- form -->
+
+<form action="">
+    <label for="catname">Cat name:</label>
+    <input type="text" id="catname" name="catname"><br>
+    <label for="catmail">Cat email:</label>
+    <input type="email" id="catmail" name="catmail" placeholder="maxwell@gmail.com"><br>
+    
+    <p>favorite animal?</p>
+    <label for="catanimal">cat</label>
+    <input type="radio" id="catanimal" name="bestanimal"><br>
+    <label for="catanimal">dog</label>
+    <input type="radio" id="doganimal" name="bestanimal"><br>
+    <label for="catanimal">bird</label>
+    <input type="radio" id="birdanimal" name="bestanimal"><br><br>
+
+    <label for="catday">cat day:</label>
+    <input type="date" id="catday" name="catday"><br>
+
+    <label for="catter">choose a cat:</label>
+    <select name="catter" id="catter">
+        <option value="orange">orange</option>
+        <option value="orange">black</option>
+        <option value="orange">calico</option>
+        <option value="orange">tabby</option>
+        <option value="orange">siamese</option>
+        <option value="orange">maxwell</option>
+    </select><br>
+
+    <label for="catcomments">any comments for the cat:</label><br>
+    <textarea name="catcomments" id="catcomments" rows="4" cols="30" placeholder="type here"></textarea><br>
+
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br><br>
+
+
+</form>
+
+<!-- table -->
+
+<table>
+    <caption>numbers thing i think</caption>
+    <colgroup>
+        <col span="1">
+    </colgroup>
+    <thead>
+     <tr>
+        <th>numbers</th>
+        <th>one</th>
+        <th>two</th>
+        <th>three</th>
+        <th>four</th>
+        <th>sum</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <th>one</th>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        
+        <td rowspan="7">1190</td>
+    </tr>
+    <tr>
+        <th>two</th>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <th>three</th>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <th>four</th>
+        <td>41</td>
+        <td>42</td>
+        <td>43</td>
+        <td>44</td>
+    </tr>
+    <tr>
+        <th>five</th>
+        <td>51</td>
+        <td>52</td>
+        <td>53</td>
+        <td>54</td>
+    </tr>
+    <tr>
+        <th>six</th>
+        <td>61</td>
+        <td>62</td>
+        <td>63</td>
+        <td>64</td>
+    </tr>
+    <tr>
+        <th>seven</th>
+        <td>71</td>
+        <td>72</td>
+        <td>73</td>
+        <td>74</td>
+    </tr>
+    <tfoot>
+        <td colspan="6">i love numbers ending in four</td>
+</table>
+    
+</body>
+</html>
